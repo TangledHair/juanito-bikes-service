@@ -1,7 +1,5 @@
-from Clases_jb import Connection, Tables, People, User, Client, Aux, WorkOrder
+from Clases_jb import Connection, People, User, Client, Aux, WorkOrder
 conexion = Connection()
-tables = Tables(conexion)
-tables.create_tables()
 people = People(conexion, '11111111-1', 'Dummy_user', '', '')
 user = User(conexion)
 aux = Aux(conexion)
