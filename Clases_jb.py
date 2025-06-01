@@ -1,5 +1,4 @@
 import pymysql
-import os
 from tabulate import tabulate
 import hashlib
 
